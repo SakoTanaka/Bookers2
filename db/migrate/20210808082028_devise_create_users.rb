@@ -36,7 +36,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
 
      #名前の登録
      t.string :name
-
      t.timestamps null: false
     end
 
